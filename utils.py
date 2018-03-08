@@ -1,11 +1,12 @@
+# -*- coding:UTF-8 -*-
 import os,sys
 import numpy as np
-#import tensorflow as tf
+import tensorflow as tf
 import random
-#import cv2,time
+import cv2,time
 from skimage.util import random_noise
 from skimage import transform
-#from tensorflow.python.client import device_lib
+from tensorflow.python.client import device_lib
 
 #10 digit + blank + space
 
